@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    >
+
+
+    <LinearLayout
+        android:layout_width="301dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CountryNameTv"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center_vertical|start"
+            android:text="Country name"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/IOCcodeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center_vertical|start"
+                android:text="IOCcode"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageTv"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:contentDescription="fav icon"
+        />
+
+</LinearLayout>
